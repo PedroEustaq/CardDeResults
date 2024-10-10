@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+        font-family: "Hanken Grotesk", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      
+        overflow-y: hidden;
+        overflow-x: hidden;
+}
+main {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-flow: row nowrap;
+    border-radius: 25px;
+
+    animation-name: fadeBaixo;
+    animation-duration: 0.5s;
+    animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+div#partE {
+    border-radius: 25px;
+    display: flex;
+    flex-flow: column nowrap;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    height: 100%;
+    width: 50%;
+    color: white;
+    align-items: center;
+
+    animation-name: fadeBaixo;
+  animation-duration: 0.5s;
+  animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+div#partE > h1 {
+    animation-name: fadeBaixo;
+    animation-duration: 2.5s;
+    animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    margin-top: 20px;
+    font-size: 20px;
+    color: hsl(241, 100%, 89%);
+}
+div#partE > h4 {
+    font-size: 30px;
+    font-weight: 500;
+}
+div#partD {
+    margin: 30px;
+    width: 50%;
+}
+div#partD > h1 {
+    margin: 0;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.777);
+    
+    animation-name: fadeBaixo;
+    animation-duration: 2.5s;
+    animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+div#circ {
+    display: flex;
+    flex-flow: column nowrap;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    border-radius: 1000px;
+
+    animation-name: fadeBaixo;
+    animation-duration: 2.5s;
+    animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+div#circ > h2 {
+    font-size: 50px;
+}
+div#circ > h3 {
+    color: hsla(256, 100%, 74%, 0.5);
+    transform: translateY(-60px);
+    font-size: 15px;
+}
+div#partE > p {
+    margin-top: -30px;
+    color: hsl(241, 100%, 89%);
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 80%;
+
+    animation-name: fadeBaixo;
+    animation-duration: 2.5s;
+    animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+div#Caixinha {
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsla(0, 100%, 67%,0.1);
+
+    animation-name: fadeBaixo;
+    animation-duration: 4.5s;
+    animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+div#Caixinha > div {
+    display: flex;
+    flex-flow: row nowrap;
+}
+p#NomeP {
+    font-weight: 500;
+    color: hsla(0, 100%, 67%,1);
+
+    animation-name: fadeBaixo;
+    animation-duration: 2.5s;
+    animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+p#Tot {
+    font-weight: 700;
+    color: rgb(30, 30, 30);
+}
+p#totR {
+    color: rgb(75, 75, 75);
+}
+div#Botao {
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    border-radius: 20px;
+    height: 45px;
+    align-items: center;
+    margin-top: 20px;
+}
+div#Botao:hover {
+    cursor: pointer;
+}

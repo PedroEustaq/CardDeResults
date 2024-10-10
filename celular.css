@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+    main {
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    div#partE {
+        margin-top: 90px;
+        border-radius: 0px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        width: 100vw;
+    }
+    div#partD {
+        width: 70vw;
+        
+    }
+    body {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+}
